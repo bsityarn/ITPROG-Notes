@@ -1,0 +1,78 @@
+/* <!-- // Marc Lesley E. Quizon
+// PHP Assignment
+// S15 Feb 27, 2026 --> */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(135deg, #f3f8ff, #dce9ff); /* This edits background color */
+    color:rgb(20, 35, 112); /* This edits text color */
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+footer {
+    padding: 20px;
+}
+
+h1 { /* designs h2 elements */
+    font-size: 60px;
+    text-align:center;
+}
+
+p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+form {/* designs the elements in the form part of the page */
+    background-color: aliceblue;
+    width: 60%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 25px 40px;/* the space around items inside the container */
+    border-radius: 12px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1); /* shadow around the container, 20px is the size of the shadow, 30px is the fadeness */
+}
+
+table{
+    width: 100%;
+    border-collapse:collapse; /* Removes the space between cells in the table */
+    margin-bottom: 0px;
+    background-color: aliceblue;
+}
+
+td { /* designs inside the cell */
+    padding: 10px 10px; /* first number is the top and bottom space, second number is the right and left space */
+    vertical-align:middle;/* makes the elements inside the cell position at the middle */
+    align-content: center;
+}
+
+/* DESIGNING THE SUBMIT BUTTON */
+input[type="submit"]{
+    color: rgb(226, 218, 220); /* text color */
+    background-color: #357abd; /* box color */
+    width: 100%;
+    margin-top: 30px; /* space above */
+    font-size: 30px; /* size of text */
+    cursor: pointer; /* makes the cursor look like a pointer, indicates the button can be clicked */
+    border-radius:12px; /* curves the corners of the box */
+    transition: background-color 0.3s, transform 0.1s; /* for the hover feature, allows smooth transition of color */
+}
+
+input[type="submit"]:hover { /* designs the action done when the cursor is over the element */
+    background-color: #ee003d;
+}
+
+input[type="submit"]:active {
+    transform: scale(0.98); /* makes the button slightly smaller when clicked */
+}
+
+/* DESIGNING THE INPUT BOXES */
+input[type="text"], select{
+    width: 85%;
+    font-size: medium;
+    border-radius: 12px;
+}

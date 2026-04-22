@@ -1,0 +1,8 @@
+Project Topic
+I made a database of my favorite Vice Ganda movies.
+
+Table Structure
+I included a ‘movies’ table which has the following fields: movieID (PK), title, yearReleased, director, date_added
+
+Challenges
+I faced several challenges. Firstly, my database would add 2 records when I click the submit button one time. I realized that when I refresh and doing a form resubmission is the cause of the issue. Secondly, I was unfamiliar how to retrieve the data. I thought I could echo it directly after fetching it (See read.php line 63) However, if I want to retrieve and display the data as text, I first need to implode to flatten the array. Lastly, I also found it difficult to structure my loop to print the records retrieved. I decided to incorporate HTML inside a PHP code block so that my while loop logic is the main part. Whereas the <td> etc. are just in echo statements for easier readability.
