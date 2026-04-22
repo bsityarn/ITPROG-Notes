@@ -1,0 +1,5 @@
+Sessions maintain user state across pages. 
+Cookies store small data on the client side. 
+The file() function reads data line by line. 
+Always validate and sanitize user input. 
+
