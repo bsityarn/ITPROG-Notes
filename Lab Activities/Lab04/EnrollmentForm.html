@@ -1,0 +1,43 @@
+<html> 
+<head><title>Student Enrollment</title></head> 
+<body> 
+<h2>IT-PROG Student Enrollment</h2> 
+<form method="post" action="ProcessEnrollment.php"> 
+ <table> 
+ <tr> 
+ <td>Full Name:</td>
+ <td><input type="text" name="name" required /></td>  </tr> 
+ <tr> 
+ <td>Email:</td> 
+ <td><input type="email" name="email" required /></td>  </tr> 
+ <tr> 
+ <td>Program:</td> 
+ <td> 
+ <select name="program"> 
+ <option value="BSIT">BSIT</option> 
+<option value="BSCS-ST">BSCS-ST</option> 
+ <option value="BSIS">BSIS</option> 
+ </select> 
+ </td> 
+ </tr> 
+ <tr> 
+ <td>Units Enrolled:</td> 
+ <td><input type="number" name="units" min="12" max="24"  required /></td> 
+ </tr> 
+ <tr> 
+ <td>Prelim Grade:</td> 
+ <td><input type="number" name="prelim" min="0" max="100"  required /></td> 
+ </tr> 
+ <tr> 
+ <td>Midterm Grade:</td> 
+ <td><input type="number" name="midterm" min="0" max="100"  required /></td> 
+ </tr> 
+ <tr> 
+ <td>Finals Grade:</td> 
+ <td><input type="number" name="finals" min="0" max="100"  required /></td> 
+ </tr> 
+ </table> 
+ <input type="submit" value="Process Enrollment" /> 
+</form> 
+</body> 
+</html> 
