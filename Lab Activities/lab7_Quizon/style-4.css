@@ -1,0 +1,22 @@
+/* <!-- Marc Lesley E. Quizon laab 7 S01 March 13 2026--> */
+body {
+    background-color: powderblue;
+    font-family:'Courier New', Courier, monospace;
+  }
+  h1 {
+    color: rgb(0, 0, 0);
+    font-family:'Courier New', Courier, monospace;
+
+  }
+  h2 {
+    color: rgb(0, 0, 0);
+  }
+  p {
+    color: rgb(0, 0, 0);
+    font-family:'Courier New', Courier, monospace;
+  }
+
+  table, th, td {
+    border: 1px solid green;
+    padding: 10px;
+  }

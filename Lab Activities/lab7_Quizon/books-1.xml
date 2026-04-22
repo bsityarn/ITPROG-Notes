@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE library [
+<!ELEMENT library (book)>
+<!ELEMENT book (tile , author , year)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+]>
+<library> 
+ <book> 
+ <title>Web Development Basics</title> 
+ <author>John Smith</author> 
+ <year>2022</year> 
+ </book> 
+
+ <book> 
+ <title>Learning PHP</title> 
+ <author>Maria Cruz</author> 
+ <year>2023</year> 
+ </book> 
+
+ <book> 
+ <title>Introduction to XML</title> 
+ <author>David Lee</author> 
+ <year>2021</year> 
+ </book> 
+<book><ftitle>test</ftitle><fauthor>test</fauthor><fyear>2026</fyear></book><book><ftitle>test</ftitle><fauthor>test</fauthor><fyear>2026</fyear></book><book><title>test</title><author>test</author><year>2026</year></book></library>
+<!-- Marc Lesley E. Quizon lab 7 S01 March 13 2026-->
